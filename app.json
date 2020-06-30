@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Tracks",
+    "slug": "tracks",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hrishi.tracks",
+      "config": {
+    "googleMapsApiKey": "AIzaSyCvs-PxbKR64Pwh3VH-OjmvPp-3H3jf-jw"
+  }
+    },
+    "android": {
+      "package": "com.hrishi.tracks",
+      "versionCode": 1,
+      "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyCvs-PxbKR64Pwh3VH-OjmvPp-3H3jf-jw"
+      }
+    }
+    }
+  }
+}
